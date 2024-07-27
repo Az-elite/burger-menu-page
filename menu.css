@@ -1,0 +1,85 @@
+.navigation-bar ul{ 
+display: flex;
+gap: 150px;
+}
+
+.navigation-bar ul li{
+list-style: none;
+}
+.navigation-bar ul li a{
+text-decoration: none;
+color: #e91e63;
+}
+
+.flex{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 150vh;
+    margin: 0;
+    /* background-color: #f8f9fa; */
+}
+
+.container {
+    text-align: center;
+}
+.container h1:hover{
+color: red;
+}
+
+h1 {
+    margin-bottom: 20px;
+cursor: pointer;
+}
+
+.food-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+}
+
+.food-item {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 10px;
+    /* box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); */
+    /* transition: transform 0.2s; */
+}
+
+.food-item:hover {
+    transform: scale(1.05);
+}
+
+.food-item img {
+    width: 80%;
+    border-radius: 8px;
+}
+
+.food-item h2 {
+    margin: 10px 0;
+    font-size: 18px;
+ padding-right: 200px;
+}
+
+.food-item p {
+
+    margin: 5px 0;
+    font-size: 30px;
+padding-right: 200px;
+    color: red
+}
+
+button {
+    padding: 10px 20px;
+    background-color:red;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: green;
+}
