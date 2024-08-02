@@ -1,0 +1,86 @@
+header nav .mobile img {
+  display: none;
+}
+
+header nav .mobile ul {
+  display: none;
+}
+
+/* for mobile */
+
+@media only screen and (max-width: 600px) {
+  header .main-ul {
+    display: none;
+  }
+
+  header nav .mobile img {
+    display: block;
+    background-color: red;
+  }
+
+  .section-1 {
+    flex-direction: column;
+  }
+
+  .loading {
+    padding-left: 0;
+    margin-top: 30px;
+  }
+
+  .section-1 .burger-img {
+    order: 1;
+  }
+
+  .section-1 .main-menu {
+    order: 2;
+  }
+
+  /* menu-mobile */
+  .food-item img {
+    width: 50%;
+  }
+
+  .food-grid {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+  }
+
+  .food-item h2 {
+    padding-right: 0;
+  }
+
+  .food-item p {
+    padding-right: 0;
+  }
+
+  /* form-mobile */
+
+  .flex {
+    display: block;
+    width: 50%;
+height: 50vh
+background-color:rgba(59, 120, 80, 0.3);;
+  }
+
+.container{
+background-color: white;
+}
+  .signup-form {
+width:290px;
+  }
+
+.signup-form h2{
+margin-bottom: 10px;
+}
+
+.form-group input{
+width: 90%;
+
+}
+
+.form-group select,button
+{
+
+width: 96.9%;
+}
+}
